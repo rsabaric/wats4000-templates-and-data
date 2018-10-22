@@ -62,12 +62,12 @@ ul {
 
 .movie-item {
   margin: 10px 0;
-  padding: 2rem;
+  padding: 3.5rem;
   box-shadow: 4px 4px 10px rgba(0,0,0,0.2);
   background-repeat: repeat y;
   background-position: center; 
   background-blend-mode:overlay;
-  background-color:bisque;
+  background-color:antiquewhite;
 }
 
 .movie-item img {
@@ -79,6 +79,7 @@ ul {
   font-weight: 600;
   font-size: 12px;
   color: #333;
+  font-family: monospace;
 }
 
 .rating-category {
@@ -92,11 +93,11 @@ ul {
 
 
 .rating-category.critics-choice {
-  background: goldenrod;
+  background: linear-gradient(to bottom, #ff9933 0%, #ffff99 100%);
 }
 
 .rating-category.well-liked {
-  background: green;
+  background: linear-gradient(to bottom, #009933 0%, #66ff33 100%);
 }
 
 .rating-category.stinker {
@@ -105,16 +106,17 @@ ul {
 
 .genre-list li {
   border-radius: 4px;
-  background: #666;
+  background: slategrey;
   color: #fff;
   font-weight: 800;
   font-size: 12px;
   padding: 0.5rem;
   display: inline-block;
   margin-right: 10px;
+  font-family: monospace;
 }
 
 a {
-  color: #42b983;
-}
+  color: #009999;
+ }
 </style>
