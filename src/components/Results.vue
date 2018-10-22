@@ -112,7 +112,7 @@ ul {
   font-size: 12px;
   padding: 0.5rem;
   display: inline-block;
-  margin-right: 10px;
+  margin-right: 11px;
   font-family: monospace;
 }
 
